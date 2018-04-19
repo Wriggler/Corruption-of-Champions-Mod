@@ -16,6 +16,7 @@ Corruption-of-Champions.as3proj
 .idea/workspace.xml
 .idea/copyright/profiles_settings.xml
 /node_modules
+/ts
 /out
 /tmp
 CoC-AIR-app.xml

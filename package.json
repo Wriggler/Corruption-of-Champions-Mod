@@ -1,0 +1,38 @@
+{
+  "name": "coc",
+  "version": "1.0.0",
+  "description": "Corruption of Champions",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "as3": "as3-to-ts ./classes ./ts --visitors createjs --overwrite",
+    "build": "npm run as3 & webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitgud.io/BelshazzarII/CoCAnon_mod.git"
+  },
+  "keywords": [
+    "CoC",
+    "18+",
+    "NSFW"
+  ],
+  "author": "Fenoxo & CoC contributors",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@as3web/as3-to-ts": "^0.3.10",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-inline-source-plugin": "0.0.9",
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^4.2",
+    "typescript": "^2.8.1",
+    "tslint": "^5.9.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "createjs-easeljs": "^0.8.2"
+  }
+}
